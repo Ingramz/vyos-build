@@ -55,6 +55,11 @@ def pkgList = [
 
     // Intel-QAT
     ['name': 'qat', 'buildCmd': 'cd ..; ./build-intel-qat.sh'],
+
+    // rtsp-linux
+    ['name': 'rtsp-linux', 'scmCommit': '475af0a',
+     'scmUrl': 'https://github.com/maru-sama/rtsp-linux.git',
+     'buildCmd': 'cd ..; ./build-rtsp-linux.sh'],
 ]
 
 // Start package build using library function from https://github.com/vyos/vyos-build
